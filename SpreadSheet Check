@@ -1,3 +1,5 @@
+//Validate input Spreadsheet name
+
 function getSpreadsheetSheet(sheetName) {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetName);
   if (!spreadsheet) {
