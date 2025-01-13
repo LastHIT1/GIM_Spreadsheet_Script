@@ -1,4 +1,4 @@
-//Check the skill and all the params being psased to create pass them towards creating the progress bar
+//Check for another goal type that grabs the provided information to create the progress of the goal
 
 function skillGoal(member, spreadsheet, selectedSkill, target) {
   var specificRow = member.goals[selectedSkill].specificRow[0];
