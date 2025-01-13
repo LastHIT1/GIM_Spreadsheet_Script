@@ -1,0 +1,7 @@
+function getSpreadsheetSheet(sheetName) {
+  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetName);
+  if (!spreadsheet) {
+    Logger.log("The '" + sheetName + "' sheet does not exist.");
+  }
+  return spreadsheet;
+}
